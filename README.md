@@ -14,7 +14,7 @@ The guide currently supports the following systems, with more coming soon:
 -   [ ] GameCube (Dolphin)
 -   [ ] Nintendo 64 (m64p)
 -   [ ] SNES (Snes9x)
--   [ ] NES (Nestopia UE)
+-   [ ] NES (FCEUX)
 -   [ ] PlayStation 3
 -   [ ] PlayStation 2
 -   [ ] PlayStation
