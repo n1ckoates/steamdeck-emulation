@@ -8,17 +8,17 @@ The guide currently supports the following systems, with more coming soon:
 
 ### Planned
 
--   [] Nintendo Switch (Yuzu)
--   [] Wii U (CEMU)
--   [] Wii (Dolphin)
--   [] GameCube (Dolphin)
--   [] Nintendo 64 (m64p)
--   [] SNES (Snes9x)
--   [] NES (Nestopia UE)
--   [] PlayStation 3
--   [] PlayStation 2
--   [] PlayStation
--   [] Xbox
+-   [ ] Nintendo Switch (Yuzu)
+-   [ ] Wii U (CEMU)
+-   [ ] Wii (Dolphin)
+-   [ ] GameCube (Dolphin)
+-   [ ] Nintendo 64 (m64p)
+-   [ ] SNES (Snes9x)
+-   [ ] NES (Nestopia UE)
+-   [ ] PlayStation 3
+-   [ ] PlayStation 2
+-   [ ] PlayStation
+-   [ ] Xbox
 
 [Open a GitHub issue](https://github.com/nchristopher/steamdeck-emulation/issues/new) if you want support for a different system.
 
