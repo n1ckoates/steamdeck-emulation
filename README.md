@@ -57,6 +57,10 @@ From here, the guide branches off for each system you want to emulate:
 -   [GameCube and/or Wii](./emulators/dolphin.md)
 -   [Nintendo 64](./emulators/m64p.md)
 
+## ❓ Support
+
+If you have any trouble with the guide, feel free to [open a GitHub discussion](https://github.com/nchristopher/steamdeck-emulation/discussions/new) or visit the `#emulation` channel the [Steam Deck Discord](https://discord.gg/myS7JkUtvA).
+
 ## 📜 License
 
 Copyright &copy; 2022 Nicholas Christopher
