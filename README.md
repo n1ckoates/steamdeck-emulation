@@ -6,7 +6,7 @@ This guide covers how to install emulators on a Steam Deck, setting up controls,
 
 ### Current Systems Supported
 
--   [ ] Nintendo Switch (Yuzu)
+-   [x] Nintendo Switch (Yuzu)
 -   [ ] Wii U (CEMU)
 -   [x] Wii (Dolphin)
 -   [ ] GameCube (Dolphin)
@@ -53,6 +53,7 @@ Open SteamOS' file manager Dolphin (it's different from the emulator Dolphin), t
 
 From here, the guide branches off for each system you want to emulate:
 
+-   [Nintendo Switch](./emulators/yuzu.md)
 -   [GameCube and/or Wii](./emulators/dolphin.md)
 
 ## 📜 License
