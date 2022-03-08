@@ -43,9 +43,10 @@ Open Steam ROM Manager, press Parsers, then enter the following settings:
 -   You can add additional categories to Steam category using the format `${category name}`, this is case-sensitive.
 -   Set executable to `/usr/bin/flatpak`.
 -   Set command line arguments to `run org.DolphinEmu.dolphin-emu -b -e "${filePath}"`
+-   Set ROMs directory to wherever your Wii ROMs are. This is the same location from before.
 -   Press save.
 
-Do the same thing again, but select `Nintendo GameCube - Dolphin` instead for Community Presets.
+Do the same thing again, but select `Nintendo GameCube - Dolphin` instead for Community Presets, and change your ROMs directory to your GameCube one.
 
 Go to the Preview tab, then press Generate App List. You should see your games populated. You can change the cover art used by hovering over the game and pressing the arrows.
 
