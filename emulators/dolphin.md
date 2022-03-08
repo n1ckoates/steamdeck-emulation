@@ -50,4 +50,4 @@ Do the same thing again, but select `Nintendo GameCube - Dolphin` instead for Co
 
 Go to the Preview tab, then press Generate App List. You should see your games populated. You can change the cover art used by hovering over the game and pressing the arrows.
 
-If it looks fine, press Generate app list. Load up Steam or switch out of desktop mode, then check your library - you should see your Wii and GameCube games!
+If it looks fine, press Save app list. Load up Steam or switch out of desktop mode, then check your library - you should see your Wii and GameCube games!
