@@ -4,13 +4,11 @@ This guide covers how to install emulators on a Steam Deck, setting up controls,
 
 **This is an unofficial guide, not affiliated with Valve**. To the best of my knowledge, it's not possible to mess up your Deck from this guide, but I'm not responsible if you do.
 
-The guide currently supports the following systems, with more coming soon:
-
-### Planned
+### Current Systems Supported
 
 -   [ ] Nintendo Switch (Yuzu)
 -   [ ] Wii U (CEMU)
--   [ ] Wii (Dolphin)
+-   [x] Wii (Dolphin)
 -   [ ] GameCube (Dolphin)
 -   [ ] Nintendo 64 (m64p)
 -   [ ] SNES (Snes9x)
@@ -50,6 +48,8 @@ Go to Steam ROM Manager's [latest release](https://github.com/SteamGridDB/steam-
 Open SteamOS' file manager Dolphin (it's different from the emulator Dolphin), then navigate to wherever you saved the file, probably in **Downloads**. You can run it by just double-tapping the file.
 
 From here, the guide branches off for each system you want to emulate:
+
+-   [GameCube and/or Wii](./emulators/dolphin.md)
 
 ## 📜 License
 
