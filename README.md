@@ -13,10 +13,14 @@ This guide covers how to install emulators on a Steam Deck, setting up controls,
 -   [ ] Nintendo 64 (m64p)
 -   [ ] SNES (Snes9x)
 -   [ ] NES (FCEUX)
--   [ ] PlayStation 3
--   [ ] PlayStation 2
--   [ ] PlayStation
--   [ ] Xbox
+-   [ ] PlayStation 3 (RPCS3)
+-   [ ] PlayStation 2 (PCSX2)
+-   [ ] PlayStation (DuckStation)
+-   [ ] Xbox (Xemu)
+-   [ ] 3DS (Citra)
+-   [ ] DS (melonDS)
+-   [ ] GBA (mGBA)
+-   [ ] PSP (PPSSPP)
 
 [Open a GitHub issue](https://github.com/nchristopher/steamdeck-emulation/issues/new) if you want support for a different system.
 
