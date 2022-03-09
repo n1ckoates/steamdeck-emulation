@@ -14,6 +14,12 @@ Open Discover, SteamOS' app store, then search for **Dolphin**. Click on the one
 
 In the top right, select **Sources**, then **Flatpak**, then press **Install**.
 
+Alternatively, open up a terminal and run
+
+```bash
+flatpak install --user -y org.DolphinEmu.dolphin-emu
+```
+
 ## Configuring Dolphin
 
 Open up the emulator and press **Config**, then the **Paths** tab. Press Add, then navigate to wherever your Wii ROMs are - if you used the recommended path, this should be `~/roms/wii`.

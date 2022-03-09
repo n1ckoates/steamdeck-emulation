@@ -14,6 +14,12 @@ Open Discover, SteamOS' app store, then search for **Yuzu**, then click on it.
 
 In the top right, select **Sources**, then **Flatpak**, then press **Install**.
 
+Alternatively, open up a terminal and run
+
+```bash
+flatpak install --user -y org.yuzu_emu.yuzu
+```
+
 ## Configuring Yuzu
 
 You'll need to dump your keys from your Switch before proceeding. This is out of scope for this guide, but Yuzu has [a guide for it](https://yuzu-emu.org/help/quickstart/#yuzu-quickstart-guide). Once you have `prod.keys` and `title.keys`, go to **File > Open Yuzu folder**. In the directory opened, create a folder named `keys`, then place the two files there.
