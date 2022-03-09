@@ -10,21 +10,22 @@ This guide **does not** cover getting ROMs or other copyrighted material.
 
 ### Current Systems Supported
 
--   [x] Nintendo Switch (Yuzu)
--   [ ] Wii U (CEMU)
--   [x] Wii (Dolphin)
--   [x] GameCube (Dolphin)
--   [x] Nintendo 64 (m64p)
--   [x] SNES (Snes9x)
--   [ ] NES (FCEUX)
--   [ ] PlayStation 3 (RPCS3)
--   [ ] PlayStation 2 (PCSX2)
--   [ ] PlayStation (DuckStation)
--   [ ] Xbox (Xemu)
--   [ ] 3DS (Citra)
--   [ ] DS (melonDS)
--   [ ] GBA (mGBA)
--   [ ] PSP (PPSSPP)
+- [x] Nintendo Switch (Yuzu)
+- [ ] Wii U (CEMU)
+- [x] Wii (Dolphin)
+- [x] GameCube (Dolphin)
+- [x] Nintendo 64 (m64p)
+- [x] SNES (Snes9x)
+- [ ] NES (FCEUX)
+- [ ] PlayStation 3 (RPCS3)
+- [ ] PlayStation 2 (PCSX2)
+- [ ] PlayStation (DuckStation)
+- [ ] Xbox (Xemu)
+- [ ] 3DS (Citra)
+- [ ] DS (melonDS)
+- [ ] GBA (mGBA)
+- [ ] PSP (PPSSPP)
+- [x] PC Engine (CD) / TurboGrafx-16 (-CD) / SuperGrafx (mednaffe)
 
 [Open a GitHub issue](https://github.com/nchristopher/steamdeck-emulation/issues/new) if you want support for a different system.
 
@@ -67,10 +68,11 @@ Open SteamOS' file manager Dolphin (it's different from the emulator Dolphin), t
 
 From here, the guide branches off for each system you want to emulate:
 
--   [Nintendo Switch](./emulators/yuzu.md)
--   [GameCube and/or Wii](./emulators/dolphin.md)
--   [Nintendo 64](./emulators/m64p.md)
--   [SNES](./emulators/snes9x.md)
+- [Nintendo Switch](./emulators/yuzu.md)
+- [GameCube and/or Wii](./emulators/dolphin.md)
+- [Nintendo 64](./emulators/m64p.md)
+- [SNES](./emulators/snes9x.md)
+- [PC Engine (CD) / TurboGrafx-16 (-CD) / SuperGrafx](./emulators/mednaffe.md)
 
 ## ❓ Support
 
