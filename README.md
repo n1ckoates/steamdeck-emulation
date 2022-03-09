@@ -41,6 +41,7 @@ roms
 ├── gamecube
 ├── n64
 ├── snes
+├── pce
 └── nes
 ```
 
