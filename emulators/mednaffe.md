@@ -42,6 +42,10 @@ From the same **Systems** tab, you can access a **Graphics** sub-tab for each sy
 
 * This one is quite personal, but making changes to either the **Scaler/Filter** or **Shader** tabs might suit you, if you're looking for a specific feel. My recommended setting would be `autoipsharper` for `OpenGL shader` in **Shader**, but you might want to tweak and read [Mednafen's documentation](https://mednafen.github.io/documentation/).
 
+### <u>Optional</u>: CD BIOS
+
+You will need to get `syscard3.pce` (BIOS) for PC Engine CD / TurboGrafx-CD emulation and set the correct path in the **Systems > Emulation** tab (`CD BIOS`).
+
 ## Steam ROM Manager
 
 Open Steam ROM Manager, press Parsers, then enter the following settings:
