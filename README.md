@@ -39,6 +39,8 @@ roms
 └── nes
 ```
 
+If you store your roms on an SD card, substitute `~/roms` with `/run/media/Deck/roms` in the guide.
+
 This guide **does not** cover getting the games themselves.
 
 We're going to use [Steam ROM Manager](https://steamgriddb.github.io/steam-rom-manager/) for this guide. It will automatically download cover art for each ROM, then add a shortcut to Steam for the game. The end result will look like this, with Steam collections for each system:
