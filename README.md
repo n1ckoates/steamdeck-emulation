@@ -11,7 +11,7 @@ This guide covers how to install emulators on a Steam Deck, setting up controls,
 -   [x] Wii (Dolphin)
 -   [x] GameCube (Dolphin)
 -   [x] Nintendo 64 (m64p)
--   [ ] SNES (Snes9x)
+-   [x] SNES (Snes9x)
 -   [ ] NES (FCEUX)
 -   [ ] PlayStation 3 (RPCS3)
 -   [ ] PlayStation 2 (PCSX2)
@@ -58,6 +58,7 @@ From here, the guide branches off for each system you want to emulate:
 -   [Nintendo Switch](./emulators/yuzu.md)
 -   [GameCube and/or Wii](./emulators/dolphin.md)
 -   [Nintendo 64](./emulators/m64p.md)
+-   [SNES](./emulators/snes9x.md)
 
 ## ❓ Support
 
