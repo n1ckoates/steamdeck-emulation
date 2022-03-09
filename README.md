@@ -1,8 +1,12 @@
 <h1 align="center">Steam Deck Emulation Guide</h1>
 
-This guide covers how to install emulators on a Steam Deck, setting up controls, playing games with optimal settings, and integrating them into Steam itself.
+This guide covers how to install emulators on a Steam Deck, setting up controls, playing games with optimal settings, and integrating them into Steam itself. It uses [Steam ROM Manager](https://steamgriddb.github.io/steam-rom-manager/), which automatically downloads cover art for each game and adds a shortcut to Steam. The end result will look like this, with Steam collections for each system:
+
+![](https://cdn.discordapp.com/attachments/809297772850839552/950265581087637554/unknown.png)
 
 **This is an unofficial guide, not affiliated with Valve**. To the best of my knowledge, it's not possible to mess up your Deck from this guide, but I'm not responsible if you do.
+
+This guide **does not** cover getting ROMs or other copyrighted material.
 
 ### Current Systems Supported
 
@@ -24,7 +28,7 @@ This guide covers how to install emulators on a Steam Deck, setting up controls,
 
 [Open a GitHub issue](https://github.com/nchristopher/steamdeck-emulation/issues/new) if you want support for a different system.
 
-## Getting Started
+### Storage
 
 This guide assumes your ROMs are under `~/roms` (a folder in your home directory), with a file structure like this:
 
@@ -39,15 +43,23 @@ roms
 └── nes
 ```
 
-If you store your roms on an SD card, substitute `~/roms` with `/run/media/Deck/roms` in the guide.
+---
 
-This guide **does not** cover getting the games themselves.
+If you store your roms on an SD card, substitute `~/roms` with `/run/media/Deck/roms` in the guide. You'll have to give Flatpaks access to your SD card - open up a terminal and run
 
-We're going to use [Steam ROM Manager](https://steamgriddb.github.io/steam-rom-manager/) for this guide. It will automatically download cover art for each ROM, then add a shortcut to Steam for the game. The end result will look like this, with Steam collections for each system:
+```bash
+flatpak override <name> --filesystem=/run/media/
+```
 
-![](https://cdn.discordapp.com/attachments/809297772850839552/950265581087637554/unknown.png)
+Substitute `<name>` with the flatpak's name, this should be apparent in the guide. For example, Snes9x's flatpak name is `com.snes9x.Snes9x`, so you'd run
 
-Switch to Desktop mode by pressing the **Steam** button, navigating to **Power**, then **Switch to Desktop**.
+```bash
+flatpak override com.snes9x.Snes9x --filesystem=/run/media/
+```
+
+## Getting Started
+
+To start off, switch to Desktop mode by pressing the **Steam** button, navigating to **Power**, then **Switch to Desktop**.
 
 Go to Steam ROM Manager's [latest release](https://github.com/SteamGridDB/steam-rom-manager/releases/latest), then download the file ending in `.AppImage` that **DOES NOT** contain `i386`. It should be named something like `Steam-ROM-Manager-2.3.29.AppImage`.
 
