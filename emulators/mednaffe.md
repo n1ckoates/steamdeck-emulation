@@ -1,10 +1,10 @@
-# Mednaffe (Mednafen) guide
+# Mednaffe guide
 
  ❗ Follow the [Getting Started section](../README.md#getting-started) of `README.md` first.
 
 This section of the guide explains how to setup [Mednaffe](https://github.com/AmatCoder/mednaffe), a front-end for [Mednafen](https://mednafen.github.io/), a multi-system emulator.
 
-<img src="https://user-images.githubusercontent.com/9209426/157373278-adeecff8-726d-414d-a599-5ac4fa143afb.png" title="" alt="A screenshot of Snes9x running Super Mario World" data-align="inline">
+![A screenshot of Mednaffe running Ginga Fukei Densetsu Sapphire](https://user-images.githubusercontent.com/9209426/157373278-adeecff8-726d-414d-a599-5ac4fa143afb.png)
 
 ## Installing Mednaffe
 
@@ -28,13 +28,13 @@ Open up the emulator, then navigate to **Global Settings > Sound**. Make sure `E
 
 ### Input mapping
 
-Switch to the **Systems** tab and there, for each system, you have an **Input** sub-tab to map various controllers as you wish. Assuming you launched the emulator from within Desktop mode, you'll need to have Steam launched beforehand to map Steam Deck inputs properly (otherwise it won't be recognized as a controller).
+Switch to the **Systems** tab. For each system, you can map various controllers under the **Input** sub-tab. In Desktop mode, you'll need to launch Steam before mapping Steam Deck inputs properly, otherwise it won't be recognized as a controller.
 
 ![](https://user-images.githubusercontent.com/9209426/157373743-a198fc69-7eeb-43e4-b091-484ad9dfb1ec.png)
 
-<u>NB</u>: The `Input device` here refers to the corresponding system's controller, not what you're using.
+<u>NB</u>: `Input device` refers to the emulated system's controller, not the real one you're using.
 
-### <u>Optional</u>: Graphics tweaking
+### Graphics (optional)
 
 From the same **Systems** tab, you can access a **Graphics** sub-tab for each system, in which I'd recommend making the following changes:
 
@@ -42,7 +42,7 @@ From the same **Systems** tab, you can access a **Graphics** sub-tab for each sy
 
 * This one is quite personal, but making changes to either the **Scaler/Filter** or **Shader** tabs might suit you, if you're looking for a specific feel. My recommended setting would be `autoipsharper` for `OpenGL shader` in **Shader**, but you might want to tweak and read [Mednafen's documentation](https://mednafen.github.io/documentation/).
 
-### <u>Optional</u>: CD BIOS
+### CD BIOS (optional)
 
 You will need to get `syscard3.pce` (BIOS) for PC Engine CD / TurboGrafx-CD emulation and set the correct path in the **Systems > Emulation** tab (`CD BIOS`).
 
