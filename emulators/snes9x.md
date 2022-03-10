@@ -22,7 +22,9 @@ flatpak install --user -y com.snes9x.Snes9x
 
 ## Configuring Snes9x
 
-Open up the emulator, then navigate to **Options > Preferences**. Switch to the Joypads tab and map the controller as you wish. You can also map hotkeys in the Shortcuts tab. You can configure any other options as you wish.
+Open up the emulator, then navigate to **Options > Preferences**. Switch to the Display tab and check "Use fullscreen on ROM open".
+
+Switch to the Joypads tab and map the controller as you wish. You can also map hotkeys in the Shortcuts tab. You can configure any other options as you wish.
 
 ## Steam ROM Manager
 
@@ -33,7 +35,7 @@ Open Steam ROM Manager, press Parsers, then enter the following settings:
 -   You can add additional categories to Steam category using the format `${category name}`, this is case-sensitive.
 -   Change configuration title to `Nintendo SNES - Snes9x` to make it less confusing.
 -   Set executable to `/usr/bin/flatpak`.
--   Set command line arguments to `run com.snes9x.Snes9x -fullscreen "${filePath}"`
+-   Set command line arguments to `run com.snes9x.Snes9x "${filePath}"`
 -   Set ROMs directory to wherever your SNES ROMs are - if you're using the recommended path, this should be `~/roms/snes`.
 -   Press save.
 
