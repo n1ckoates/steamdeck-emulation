@@ -25,6 +25,7 @@ This guide **does not** cover getting ROMs or other copyrighted material.
 -   [ ] DS (melonDS)
 -   [ ] GBA (mGBA)
 -   [ ] PSP (PPSSPP)
+-   [x] PC Engine (CD) / TurboGrafx-16 (-CD) / SuperGrafx (Mednaffe)
 
 [Open a GitHub issue](https://github.com/nchristopher/steamdeck-emulation/issues/new) if you want support for a different system.
 
@@ -40,6 +41,7 @@ roms
 ├── gamecube
 ├── n64
 ├── snes
+├── pce
 └── nes
 ```
 
@@ -71,6 +73,7 @@ From here, the guide branches off for each system you want to emulate:
 -   [GameCube and/or Wii](./emulators/dolphin.md)
 -   [Nintendo 64](./emulators/m64p.md)
 -   [SNES](./emulators/snes9x.md)
+-   [PC Engine (CD) / TurboGrafx-16 (-CD) / SuperGrafx](./emulators/mednaffe.md)
 
 ## ❓ Support
 
