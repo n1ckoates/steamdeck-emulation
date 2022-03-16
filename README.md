@@ -18,7 +18,7 @@ This guide **does not** cover getting ROMs or other copyrighted material.
 -   [x] SNES (Snes9x)
 -   [ ] NES (FCEUX)
 -   [ ] PlayStation 3 (RPCS3)
--   [ ] PlayStation 2 (PCSX2)
+-   [x] PlayStation 2 (PCSX2)
 -   [ ] PlayStation (DuckStation)
 -   [ ] Xbox (Xemu)
 -   [ ] 3DS (Citra)
