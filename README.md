@@ -42,6 +42,7 @@ roms
 ├── n64
 ├── snes
 ├── pce
+├── playstation 2
 └── nes
 ```
 
