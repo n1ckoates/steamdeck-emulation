@@ -75,6 +75,7 @@ From here, the guide branches off for each system you want to emulate:
 -   [Nintendo 64](./emulators/m64p.md)
 -   [SNES](./emulators/snes9x.md)
 -   [PC Engine (CD) / TurboGrafx-16 (-CD) / SuperGrafx](./emulators/mednaffe.md)
+-   [Playstation 2](./emulators/pcsx2.md)
 
 ## ❓ Support
 
