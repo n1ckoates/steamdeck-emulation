@@ -18,7 +18,7 @@ This guide **does not** cover getting ROMs or other copyrighted material.
 -   [x] SNES (Snes9x)
 -   [ ] NES (FCEUX)
 -   [ ] PlayStation 3 (RPCS3)
--   [ ] PlayStation 2 (PCSX2)
+-   [x] PlayStation 2 (PCSX2)
 -   [ ] PlayStation (DuckStation)
 -   [ ] Xbox (Xemu)
 -   [ ] 3DS (Citra)
@@ -42,6 +42,7 @@ roms
 ├── n64
 ├── snes
 ├── pce
+├── ps2
 └── nes
 ```
 
@@ -74,6 +75,7 @@ From here, the guide branches off for each system you want to emulate:
 -   [Nintendo 64](./emulators/m64p.md)
 -   [SNES](./emulators/snes9x.md)
 -   [PC Engine (CD) / TurboGrafx-16 (-CD) / SuperGrafx](./emulators/mednaffe.md)
+-   [PlayStation 2](./emulators/pcsx2.md)
 
 ## ❓ Support
 
