@@ -24,7 +24,7 @@ Open Steam ROM Manager, press Parsers, then enter the following settings:
 -   You can add additional categories to Steam category using the format `${category name}`, this is case-sensitive. Example: ${Playstation 2}
 -   Set executable to `/usr/bin/flatpak`.
 -   Set command line arguments to `run net.pcsx2.PCSX2 "${filepath}" --nogui --fullscreen`
--   Set ROMs directory to wherever your PS2 ROMs are. This is the same location from before.
+- Set ROMs directory to wherever your PS2 ROMs are - if you're using the recommended path, this should be `~/roms/ps2`.
 -   Press save.
 
 Go to the Preview tab, then press Generate App List. You should see your games populated. You can change the cover art used by hovering over the game and pressing the arrows.
