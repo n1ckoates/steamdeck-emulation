@@ -15,9 +15,11 @@ In the top right, select **Sources**, then **Flatpak**, then press **Install**.
 Alternatively, open up a terminal and run
 
 ```bash
-flatpak install --user -y net.pcsx2.PCSX2```
+flatpak install --user -y net.pcsx2.PCSX2
+```
 
 ## Configuring PCSX2
+
 Open up the emulator, then navigate through the initial setup. You'll have to provide your own PS2 BIOS file.
 
 Navigate to **Config > General Settings**, then in the Speedhacks menu, enable MTVU under the microVU Hacks section.
@@ -25,15 +27,18 @@ Navigate to **Config > General Settings**, then in the Speedhacks menu, enable M
 Open GS Window in General Settings, then change the aspect ratio to "Fit to Window/Screen", then apply & close general settings.
 
 Navigate to **Config > Graphics Settings**, then set the following:
-- Internal Resolution: 2x Native
-- CRC Hack Level: Aggressive
-  
+
+-   Internal Resolution: 2x Native
+-   CRC Hack Level: Aggressive
+
 Open the Hacks tab, then set the following:
-- Manual HW Hacks: toggle ON
-- Fast Texture Invalidation: toggle ON
-  
+
+-   Manual HW Hacks: toggle ON
+-   Fast Texture Invalidation: toggle ON
+
 Open Advanced settings, then set the following:
-- Precache Textures: toggle ON
+
+-   Precache Textures: toggle ON
 
 ## Steam ROM Manager
 
@@ -43,7 +48,7 @@ Open Steam ROM Manager, press Parsers, then enter the following settings:
 -   You can add additional categories to Steam category using the format `${category name}`, this is case-sensitive.
 -   Set executable to `/usr/bin/flatpak`.
 -   Set command line arguments to `run net.pcsx2.PCSX2 "${filepath}" --nogui --fullscreen`
-- Set ROMs directory to wherever your PS2 ROMs are - if you're using the recommended path, this should be `~/roms/ps2`.
+-   Set ROMs directory to wherever your PS2 ROMs are - if you're using the recommended path, this should be `~/roms/ps2`.
 -   Press save.
 
 Go to the Preview tab, then press Generate App List. You should see your games populated. You can change the cover art used by hovering over the game and pressing the arrows.
