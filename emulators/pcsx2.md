@@ -40,7 +40,7 @@ Open Advanced settings, then set the following:
 Open Steam ROM Manager, press Parsers, then enter the following settings:
 
 -   Select `Sony Playstation 2 - PCSX2` under Community Presets.
--   You can add additional categories to Steam category using the format `${category name}`, this is case-sensitive. Example: ${Playstation 2}
+-   You can add additional categories to Steam category using the format `${category name}`, this is case-sensitive.
 -   Set executable to `/usr/bin/flatpak`.
 -   Set command line arguments to `run net.pcsx2.PCSX2 "${filepath}" --nogui --fullscreen`
 - Set ROMs directory to wherever your PS2 ROMs are - if you're using the recommended path, this should be `~/roms/ps2`.
