@@ -1,0 +1,20 @@
+name: 💡 Enhancement
+description: Suggest an improvement to the guide.
+title: "💡 "
+labels: ["enhancement"]
+body:
+    - type: markdown
+      attributes:
+          value: Make sure to [search for duplicate issues](https://github.com/nchristopher/steamdeck-emulation/issues?q=label%3Aenhancement) before opening a new one.
+    - type: textarea
+      attributes:
+          label: Description
+          description: Describe the enhancement in detail.
+          validations:
+              required: true
+    - type: textarea
+      attributes:
+          label: Why
+          description: Why should this improvement be added to the guide? Does it solve any problems?
+          validations:
+              required: true

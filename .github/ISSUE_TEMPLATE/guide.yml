@@ -1,0 +1,23 @@
+name: 🎮 Guide Request
+description: Request a guide for a new system or emulator.
+title: "🎮 "
+labels: ["guide request"]
+body:
+    - type: markdown
+      attributes: Make sure to [search for duplicate issues](https://github.com/nchristopher/steamdeck-emulation/issues?q=label%3A%22guide+request%22) before opening a new one.
+    - type: input
+      attributes:
+          label: System
+          description: What system are you requesting a guide for? If your preferred emulator supports multiple systems, open multiple issues.
+          placeholder: Wii
+      validations:
+          required: true
+    - type: input
+      attributes:
+          label: Emulator
+          description: If you have a specific emulator the guide should use, put it here.
+          placeholder: Dolphin
+    - type: textarea
+      attributes:
+          label: Additional info
+          description: Is there anything else we should know?

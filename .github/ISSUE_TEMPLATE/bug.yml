@@ -1,0 +1,17 @@
+name: 🐛 Bug
+description: Report an issue with the guide itself.
+title: "🐛 "
+labels: ["bug"]
+body:
+    - type: markdown
+      attributes:
+          value: |
+              Make sure to [search for duplicate issues](https://github.com/nchristopher/steamdeck-emulation/issues?q=label%3Abug) before opening a new one.
+
+              This form is for issues with the guide itself; bugs in the emulators themselves should be reported to the emulator's maintainer(s).
+    - type: textarea
+      attributes:
+          label: Description
+          description: Describe the bug in detail. Provide examples of what the issue is, if applicable.
+          validations:
+              required: true

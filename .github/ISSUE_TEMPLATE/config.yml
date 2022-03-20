@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+    - name: 💬 GitHub Discussions
+      url: https://github.com/nchristopher/steamdeck-emulation/discussions
+      about: For questions or issues you're having, open a GitHub Discussion.
+    - name: 👥 Steam Deck Discord
+      url: https://discord.gg/myS7JkUtvA
+      about: Check out the \#emulation channel on the Steam Deck Discord.
