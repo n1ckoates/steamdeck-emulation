@@ -10,11 +10,11 @@ body:
       attributes:
           label: Description
           description: Describe the enhancement in detail.
-          validations:
-              required: true
+      validations:
+          required: true
     - type: textarea
       attributes:
           label: Why
           description: Why should this improvement be added to the guide? Does it solve any problems?
-          validations:
-              required: true
+      validations:
+          required: true

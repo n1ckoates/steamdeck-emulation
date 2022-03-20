@@ -13,5 +13,5 @@ body:
       attributes:
           label: Description
           description: Describe the bug in detail. Provide examples of what the issue is, if applicable.
-          validations:
-              required: true
+      validations:
+          required: true

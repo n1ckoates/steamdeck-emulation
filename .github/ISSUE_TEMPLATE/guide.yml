@@ -4,7 +4,8 @@ title: "🎮 "
 labels: ["guide request"]
 body:
     - type: markdown
-      attributes: Make sure to [search for duplicate issues](https://github.com/nchristopher/steamdeck-emulation/issues?q=label%3A%22guide+request%22) before opening a new one.
+      attributes:
+          value: Make sure to [search for duplicate issues](https://github.com/nchristopher/steamdeck-emulation/issues?q=label%3A%22guide+request%22) before opening a new one.
     - type: input
       attributes:
           label: System
