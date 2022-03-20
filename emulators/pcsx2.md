@@ -1,18 +1,20 @@
 ## Configuring PCSX2
-Open Config -> General Settings, then make sure to enable MTVU under the microVU Hacks section in the Speedhacks menu.
-Open GS Window in General Settings, then change the aspect ratio to "Fit to Window/Screen"
-Apply and close General Settings
+Open up the emulator, then navigate through the initial setup. You'll have to provide your own PS2 BIOS file.
 
-OpenConfig -> Graphics Settings, Set the following:
-  Internal Resolution: 2x Native
-  CRC Hack Level: Aggressive
+Navigate to **Config > General Settings**, then in the Speedhacks menu, enable MTVU under the microVU Hacks section.
+
+Open GS Window in General Settings, then change the aspect ratio to "Fit to Window/Screen", then apply & close general settings.
+
+Navigate to **Config > Graphics Settings**, then set the following:
+- Internal Resolution: 2x Native
+- CRC Hack Level: Aggressive
   
-Open the Hacks tab, and set the following:
-  Manual HW Hacks: toggle ON
-  Fast Texture Invalidation: toggle ON
+Open the Hacks tab, then set the following:
+- Manual HW Hacks: toggle ON
+- Fast Texture Invalidation: toggle ON
   
-Open Advanced settings, and set the following:
-  Precache Textures: toggle ON
+Open Advanced settings, then set the following:
+- Precache Textures: toggle ON
 
 ## Steam ROM Manager
 
