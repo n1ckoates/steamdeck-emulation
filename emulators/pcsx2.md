@@ -1,3 +1,22 @@
+# PCSX2 Guide
+
+❗ Follow the [Getting Started section](../README.md#getting-started) of `README.md` first.
+
+This section of the guide explains how to setup [PCSX2](https://pcsx2.net/), a PlayStation 2 emulator.
+
+## Installing PCSX2
+
+Open Discover, SteamOS' app store, then search for **PCSX2**, then click on it.
+
+![](https://user-images.githubusercontent.com/58091943/159169454-555ab88e-5bce-4e29-b27d-f18192931e56.png)
+
+In the top right, select **Sources**, then **Flatpak**, then press **Install**.
+
+Alternatively, open up a terminal and run
+
+```bash
+flatpak install --user -y net.pcsx2.PCSX2```
+
 ## Configuring PCSX2
 Open up the emulator, then navigate through the initial setup. You'll have to provide your own PS2 BIOS file.
 
