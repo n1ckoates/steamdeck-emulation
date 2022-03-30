@@ -22,6 +22,8 @@ flatpak install --user -y net.pcsx2.PCSX2
 
 Open up the emulator, then navigate through the initial setup. You'll have to provide your own PS2 BIOS file.
 
+Under the **Debug** menu, uncheck **Show Program Log**.
+
 Navigate to **Config > General Settings**, then in the Speedhacks menu, enable MTVU under the microVU Hacks section.
 
 Open GS Window in General Settings, then change the aspect ratio to "Fit to Window/Screen", then apply & close general settings.
