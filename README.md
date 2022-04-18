@@ -22,7 +22,7 @@ This guide **does not** cover getting ROMs or other copyrighted material.
 -   [ ] PlayStation (DuckStation)
 -   [ ] Xbox (Xemu)
 -   [ ] 3DS (Citra)
--   [ ] DS (melonDS)
+-   [x] DS (melonDS)
 -   [ ] GBA (mGBA)
 -   [ ] PSP (PPSSPP)
 -   [x] PC Engine (CD) / TurboGrafx-16 (-CD) / SuperGrafx (Mednaffe)
@@ -43,7 +43,8 @@ roms
 ├── snes
 ├── pce
 ├── ps2
-└── nes
+├── nes
+└── ds
 ```
 
 ---
@@ -76,6 +77,7 @@ From here, the guide branches off for each system you want to emulate:
 -   [SNES](./emulators/snes9x.md)
 -   [PC Engine (CD) / TurboGrafx-16 (-CD) / SuperGrafx](./emulators/mednaffe.md)
 -   [PlayStation 2](./emulators/pcsx2.md)
+-   [Nintendo DS](./emulators/melonds.md)
 
 ## ❓ Support
 
