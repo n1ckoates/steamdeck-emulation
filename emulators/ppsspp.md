@@ -4,7 +4,7 @@
 
 This section of the guide explains how to setup [PPSSPP](https://www.ppsspp.org), a PSP emulator.
 
-![image](https://user-images.githubusercontent.com/59558433/163827712-fe70ad3e-b625-4439-96ea-40038c128a00.png)
+![A screenshot of PPSSPP's main menu](https://user-images.githubusercontent.com/59558433/163827712-fe70ad3e-b625-4439-96ea-40038c128a00.png)
 
 ## Installing PPSSPP
 
