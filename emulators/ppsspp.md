@@ -28,7 +28,7 @@ In **Graphics**:
  * Turn ON **Fullscreen**, **VSync** and set the **Rendering resolution** to **Auto (1:1)**
  * Set **Upscale level** to **2x** and **Upscale type** to **Hybrid + Bicubic**, then check **Deposterize**
 
-Go back and select *Exit*, Launch it one last time and in the **Games** tabs on main menu, navigate to wherever your PSP ROMs are - if you used the recommended path, this should be `~/roms/psp`.
+Go back and select *Exit*. Launch the emulator one last time and in the **Games** tabs on the main menu, navigate to wherever your PSP ROMs are - if you used the recommended path, this should be `~/roms/psp`.
 
 ## Steam ROM Manager
 
