@@ -36,8 +36,6 @@ Open Steam ROM Manager, press Parsers, then enter the following settings:
 
 -   Select `Sony PlayStation Portable - PPSSPP (Flatpak)` under Community Presets.
 -   You can add additional categories to Steam category using the format `${category name}`, this is case-sensitive.
--   Set executable to `/usr/bin/flatpak`.
--   Set command line arguments to `run org.ppsspp.PPSSPP "${filePath}"`
 -   Set ROMs directory to wherever your PSP ROMs are. This is the same location from before.
 -   Press save.
 
