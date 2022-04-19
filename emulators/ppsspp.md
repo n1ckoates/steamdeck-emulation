@@ -20,15 +20,15 @@ flatpak install --user -y org.ppsspp.PPSSPP
 
 ## Configuring PPSSPP
 
-Open up the emulator and press **Settings**.
-
-In **Graphics**:
- * select **Vulkan** as a Backend and say *Yes* to restart now, then launch PPSSPP again.
- * Go back in Settings, Graphics, then set **AMD RADV VANGOGH** as a Device.
- * Turn ON **Fullscreen**, **VSync** and set the **Rendering resolution** to **Auto (1:1)**
- * Set **Upscale level** to **2x** and **Upscale type** to **Hybrid + Bicubic**, then check **Deposterize**
-
-Go back and select *Exit*. Launch the emulator one last time and in the **Games** tabs on the main menu, navigate to wherever your PSP ROMs are - if you used the recommended path, this should be `~/roms/psp`.
+Open up the emulator, then navigate to **Settings > Graphics**.
+ * Set **Backend** to **Vulkan**, then press **Yes** to restart now. Launch PPSSPP again.
+ * Set **Device** to **AMD RADV VANGOGH**.
+ * Turn on **Fullscreen**.
+ * Turn on **VSync**.
+ * Set **Rendering resolution** to **Auto (1:1)**.
+ * Set **Upscale level** to **2x**.
+ * Set **Upscale type** to **Hybrid + Bicubic**.
+ * Turn on **Deposterize**.
 
 ## Steam ROM Manager
 
@@ -36,7 +36,7 @@ Open Steam ROM Manager, press Parsers, then enter the following settings:
 
 -   Select `Sony PlayStation Portable - PPSSPP (Flatpak)` under Community Presets.
 -   You can add additional categories to Steam category using the format `${category name}`, this is case-sensitive.
--   Set ROMs directory to wherever your PSP ROMs are. This is the same location from before.
+-   Set ROMs directory to wherever your PSP ROMs are - if you're using the recommended path, this should be `~/roms/psp`.
 -   Press save.
 
 Go to the Preview tab, then press Generate App List. You should see your games populated. You can change the cover art used by hovering over the game and pressing the arrows.
