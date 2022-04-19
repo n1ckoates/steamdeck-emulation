@@ -1,7 +1,7 @@
 name: 🎮 Guide Request
 description: Request a guide for a new system or emulator.
 title: "🎮 "
-labels: ["guide request"]
+labels: ["guide"]
 body:
     - type: markdown
       attributes:

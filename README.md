@@ -24,7 +24,7 @@ This guide **does not** cover getting ROMs or other copyrighted material.
 -   [ ] 3DS (Citra)
 -   [x] DS (melonDS)
 -   [ ] GBA (mGBA)
--   [ ] PSP (PPSSPP)
+-   [x] PSP (PPSSPP)
 -   [x] PC Engine (CD) / TurboGrafx-16 (-CD) / SuperGrafx (Mednaffe)
 
 [Open a GitHub issue](https://github.com/nchristopher/steamdeck-emulation/issues/new) if you want support for a different system.
@@ -36,15 +36,14 @@ This guide assumes your ROMs are under `~/roms` (a folder in your home directory
 ```
 roms
 ├── switch
-├── wiiu
 ├── wii
 ├── gamecube
 ├── n64
 ├── snes
 ├── pce
 ├── ps2
-├── nes
-└── ds
+├── ds
+└── psp
 ```
 
 ---
@@ -78,6 +77,7 @@ From here, the guide branches off for each system you want to emulate:
 -   [PC Engine (CD) / TurboGrafx-16 (-CD) / SuperGrafx](./emulators/mednaffe.md)
 -   [PlayStation 2](./emulators/pcsx2.md)
 -   [Nintendo DS](./emulators/melonds.md)
+-   [PlayStation Portable (PSP)](./emulators/ppsspp.md)
 
 ## ❓ Support
 
