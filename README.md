@@ -36,14 +36,12 @@ This guide assumes your ROMs are under `~/roms` (a folder in your home directory
 ```
 roms
 ├── switch
-├── wiiu
 ├── wii
 ├── gamecube
 ├── n64
 ├── snes
 ├── pce
 ├── ps2
-├── nes
 └── psp
 ```
 
