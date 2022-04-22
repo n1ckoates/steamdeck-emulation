@@ -37,4 +37,4 @@ Open Steam ROM Manager, press Parsers, then enter the following settings:
 
 Go to the Preview tab, then press Generate App List. You should see your games populated. You can change the cover art used by hovering over the game and pressing the arrows.
 
-If it looks fine, press Save app list. Load up Steam or switch out of desktop mode, then check your library - you should see your Switch games!
+If it looks fine, press Save app list. Load up Steam or switch out of desktop mode, then check your library - you should see your 3DS games!
