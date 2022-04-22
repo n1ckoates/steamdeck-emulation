@@ -63,7 +63,7 @@ flatpak override com.snes9x.Snes9x --filesystem=/run/media/
 
 To start off, switch to Desktop mode by pressing the **Steam** button, navigating to **Power**, then **Switch to Desktop**.
 
-Go to Steam ROM Manager's [latest release](https://github.com/SteamGridDB/steam-rom-manager/releases/latest), then download the file ending in `.AppImage` that **DOES NOT** contain `i386`. It should be named something like `Steam-ROM-Manager-2.3.29.AppImage`.
+Go to Steam ROM Manager's [latest release](https://github.com/SteamGridDB/steam-rom-manager/releases/latest), then download the file ending in `.AppImage` that **DOES NOT** contain `i386`. It should be named something like `Steam-ROM-Manager-2.3.29.AppImage`. If prompted for Steam's directory, enter `/home/deck/.local/share/Steam`.
 
 Open SteamOS' file manager Dolphin (it's different from the emulator Dolphin), then navigate to wherever you saved the file, probably in **Downloads**. You can run it by just double-tapping the file.
 
