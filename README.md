@@ -47,7 +47,7 @@ roms
 
 ---
 
-If you store your roms on an SD card, substitute `~/roms` with `/run/media/Deck/roms` in the guide. You'll have to give Flatpaks access to your SD card - open up a terminal and run
+If you store your roms on an SD card, substitute `~/roms` with `/run/media/mmcblk0p1/roms` in the guide. You'll have to give Flatpaks access to your SD card - open up a terminal and run
 
 ```bash
 flatpak override <name> --filesystem=/run/media/
