@@ -33,6 +33,12 @@ Open Steam ROM Manager, press Parsers, then enter the following settings:
 -   Select `Nintendo 3DS - Citra(Flatpak)` under Community Presets.
 -   You can add additional categories to Steam category using the format `${category name}`, this is case-sensitive.
 -   Set ROMs directory to wherever your 3DS ROMs are - if you're using the recommended path, this should be `~/roms/3ds`.
+-   If you added AES keys to load encrypted games (see above), add `.cia` to User's glob. It should look something like this:
+
+```
+${title}@(.3ds|.3DS|.3dsx|.3DSX|.app|.APP|.axf|.AXF|.cci|.CCI|.cxi|.CXI|.elf|.ELF|.cia)
+```
+
 -   Press save.
 
 Go to the Preview tab, then press Generate App List. You should see your games populated. You can change the cover art used by hovering over the game and pressing the arrows.
