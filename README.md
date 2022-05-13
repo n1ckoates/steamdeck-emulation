@@ -21,7 +21,7 @@ This guide **does not** cover getting ROMs or other copyrighted material.
 -   [x] PlayStation 2 (PCSX2)
 -   [ ] PlayStation (DuckStation)
 -   [ ] Xbox (Xemu)
--   [ ] 3DS (Citra)
+-   [x] 3DS (Citra)
 -   [x] DS (melonDS)
 -   [ ] GBA (mGBA)
 -   [x] PSP (PPSSPP)
@@ -43,12 +43,13 @@ roms
 ├── pce
 ├── ps2
 ├── ds
+├── 3ds
 └── psp
 ```
 
 ---
 
-If you store your roms on an SD card, substitute `~/roms` with `/run/media/Deck/roms` in the guide. You'll have to give Flatpaks access to your SD card - open up a terminal and run
+If you store your roms on an SD card, substitute `~/roms` with `/run/media/mmcblk0p1/roms` in the guide. You'll have to give Flatpaks access to your SD card - open up a terminal and run
 
 ```bash
 flatpak override <name> --filesystem=/run/media/
@@ -64,7 +65,7 @@ flatpak override com.snes9x.Snes9x --filesystem=/run/media/
 
 To start off, switch to Desktop mode by pressing the **Steam** button, navigating to **Power**, then **Switch to Desktop**.
 
-Go to Steam ROM Manager's [latest release](https://github.com/SteamGridDB/steam-rom-manager/releases/latest), then download the file ending in `.AppImage` that **DOES NOT** contain `i386`. It should be named something like `Steam-ROM-Manager-2.3.29.AppImage`.
+Go to Steam ROM Manager's [latest release](https://github.com/SteamGridDB/steam-rom-manager/releases/latest), then download the file ending in `.AppImage` that **DOES NOT** contain `i386`. It should be named something like `Steam-ROM-Manager-2.3.29.AppImage`. If prompted for Steam's directory, enter `/home/deck/.local/share/Steam`.
 
 Open SteamOS' file manager Dolphin (it's different from the emulator Dolphin), then navigate to wherever you saved the file, probably in **Downloads**. You can run it by just double-tapping the file.
 
@@ -77,6 +78,7 @@ From here, the guide branches off for each system you want to emulate:
 -   [PC Engine (CD) / TurboGrafx-16 (-CD) / SuperGrafx](./emulators/mednaffe.md)
 -   [PlayStation 2](./emulators/pcsx2.md)
 -   [Nintendo DS](./emulators/melonds.md)
+-   [Nintendo 3DS](./emulators/citra.md)
 -   [PlayStation Portable (PSP)](./emulators/ppsspp.md)
 
 ## ❓ Support
