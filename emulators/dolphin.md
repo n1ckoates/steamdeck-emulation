@@ -26,14 +26,18 @@ Open up the emulator and press **Config**, then the **Paths** tab. Press Add, th
 
 Press Add again, this time navigating to your GameCube roms - this should be `~/roms/gamecube`.
 
+Switch to the **Audio** tab, and select "Pulse" under the drop down for "Audio Backend". Now audio will work.
+
+Switch to the **Interface** tab, and uncheck the box for "Confirm on Stop". This will allow games to close without a prompt.
+
 Press Close; your games should appear in Dolphin now.
 
-Press **Graphics**, then change Backend to Vulkan. Switch to the Enhancements tab, then change Internal Resolution to 3x Native. This will upscale titles to 1080p from the base 480p. Press Close.
+Press **Graphics**, then change Backend to Vulkan. Switch to the Enhancements tab, then change Internal Resolution to 3x Native. This will upscale titles to 1080p from the base 480p. Check the box "Render to Main Window" to keep the game window active when starting a game. Press Close.
 
 Press **Controllers**. You can configure this as you wish, but most people will want to:
 
 -   Select Standard Controller for Port 1 under GameCube Controllers.
-    -   Press Configure, then bind the buttons to your preference. Save your setup as a profile.
+    -   Press Configure, Make sure the controller type is "SDL/0/Microsoft X-Box 360 Pad 0", then bind the buttons to your preference. Save your setup as a profile.
 -   Select Emulate the Wii's Bluetooth adapter under Wii Controllers.
     -   Press Configure, then bind the buttons to your preference. Some games require extensions, and some games map better to the Deck's controller with an extension (eg. Mario Kart Wii works best mapped to a Classic Controller.)
 
