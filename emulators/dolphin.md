@@ -37,7 +37,7 @@ Press **Graphics**, then change Backend to Vulkan. Switch to the Enhancements ta
 Press **Controllers**. You can configure this as you wish, but most people will want to:
 
 -   Select Standard Controller for Port 1 under GameCube Controllers.
-    -   Press Configure, Make sure the controller type is "SDL/0/Microsoft X-Box 360 Pad 0", then bind the buttons to your preference. Save your setup as a profile.
+    -   Press Configure. Make sure the controller type is "SDL/0/Microsoft X-Box 360 Pad 0", then bind the buttons to your preference. Save your setup as a profile.
 -   Select Emulate the Wii's Bluetooth adapter under Wii Controllers.
     -   Press Configure, then bind the buttons to your preference. Some games require extensions, and some games map better to the Deck's controller with an extension (eg. Mario Kart Wii works best mapped to a Classic Controller.)
 
