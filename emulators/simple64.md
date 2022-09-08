@@ -1,25 +1,24 @@
-# m64p Guide
+# simple64 Guide
 
 ❗ Follow the [Getting Started section](../README.md#getting-started) of `README.md` first.
 
-This section of the guide explains how to setup [m64](https://m64p.github.io/), a Nintendo 64 emulator. The emulator is based on [mupen64plus-gui](https://github.com/m64p/mupen64plus-gui), which itself is a frontend for [mupen64plus](https://mupen64plus.org/).
+This section of the guide explains how to setup [simple64](https://simple64.github.io/), a Nintendo 64 emulator. The emulator is based on [simple64-gui](https://github.com/simple64/simple64-gui), which itself is a frontend for [mupen64plus](https://mupen64plus.orgsimple64-gui
+![A screenshot of simple64 running The Legend of Zelda: Ocarina of Time](https://user-images.githubusercontent.com/58091943/189030050-dc3aeb03-9d46-45f4-a7ee-b3413b962964.png)
 
-![A screenshot of m64p running The Legend of Zelda: Ocarina of Time](https://user-images.githubusercontent.com/58091943/157164677-4eb4cf69-9eaf-45a3-b22e-bbe508ab2c0c.png)
+## Installing simple64
 
-## Installing m64p
-
-Open Discover, SteamOS' app store, then search for **m64p**, then click on it.
-![](https://user-images.githubusercontent.com/58091943/157164923-2d560fb6-ca98-4449-80b2-9004b0a8a7b1.png)
+Open Discover, SteamOS' app store, then search for **simple64**, then click on it.
+![](https://user-images.githubusercontent.com/58091943/189030159-ed013e4e-c9eb-44a6-9318-d07521c5acd6.png)
 
 In the top right, select **Sources**, then **Flatpak**, then press **Install**.
 
 Alternatively, open up a terminal and run
 
 ```bash
-flatpak install --user -y io.github.m64p.m64p
+flatpak install --user -y io.github.simple64.simple64
 ```
 
-## Configuring m64p
+## Configuring simple64
 
 Open up the emulator and navigate to **Settings > Core and Video Settings**, then switch to the ParaLLel Video tab. Enable Fullscreen, then set Upscaling to `4`, then exit out of this menu.
 
@@ -34,7 +33,7 @@ Open Steam ROM Manager, press Parsers, then enter the following settings:
 -   Select `Nintendo 64 - Mupen64Plus` under Community Presets.
 -   You can add additional categories to Steam category using the format `${category name}`, this is case-sensitive.
 -   Set executable to `/usr/bin/flatpak`.
--   Set command line arguments to `run io.github.m64p.m64p "${filePath}"`
+-   Set command line arguments to `run io.github.simple64.simple64 "${filePath}"`
 -   Set ROMs directory to wherever your N64 ROMs are - if you're using the recommended path, this should be `~/roms/n64`.
 -   Press save.
 

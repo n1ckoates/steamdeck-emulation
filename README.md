@@ -14,7 +14,7 @@ This guide **does not** cover getting ROMs or other copyrighted material.
 -   [ ] Wii U (CEMU)
 -   [x] Wii (Dolphin)
 -   [x] GameCube (Dolphin)
--   [x] Nintendo 64 (m64p)
+-   [x] Nintendo 64 (simple64)
 -   [x] SNES (Snes9x)
 -   [ ] NES (FCEUX)
 -   [ ] PlayStation 3 (RPCS3)
@@ -72,7 +72,7 @@ From here, the guide branches off for each system you want to emulate:
 
 -   [Nintendo Switch](./emulators/yuzu.md)
 -   [GameCube and/or Wii](./emulators/dolphin.md)
--   [Nintendo 64](./emulators/m64p.md)
+-   [Nintendo 64](./emulators/simple64.md)
 -   [SNES](./emulators/snes9x.md)
 -   [PC Engine (CD) / TurboGrafx-16 (-CD) / SuperGrafx](./emulators/mednaffe.md)
 -   [PlayStation 2](./emulators/pcsx2.md)
