@@ -8,7 +8,7 @@ This section of the guide explains how to setup [melonDS](https://melonds.kuribo
 
 ## Installing melonDS
 
-Open Discover, SteamOS' app store, then search for **m64p**, then click on it.
+Open Discover, SteamOS' app store, then search for **melonDS**, then click on it.
 ![](https://user-images.githubusercontent.com/58091943/160287403-8f61cfe0-a3eb-4677-bfec-6a2ec99681d4.png)
 
 In the top right, select **Sources**, then **Flatpak**, then press **Install**.
