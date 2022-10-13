@@ -29,7 +29,7 @@ This guide **does not** cover getting ROMs or other copyrighted material.
 
 [Open a GitHub issue](https://github.com/nchristopher/steamdeck-emulation/issues/new) if you want support for a different system.
 
-### Storage
+### Recommended Storage
 
 This guide assumes your ROMs are under `~/roms` (a folder in your home directory), with a file structure like this:
 
@@ -46,15 +46,15 @@ roms
 └── psp
 ```
 
----
+### Alternate Storage
 
-If you store your roms on an SD card, substitute `~/roms` with `/run/media/mmcblk0p1/roms` in the guide. You'll have to give Flatpaks access to your SD card - open up a terminal and run
+If you store your roms on an SD card, substitute `~/roms` with `/run/media/mmcblk0p1/roms` in each guide. You'll have to give Flatpaks access to your SD card. Open up a terminal and run
 
 ```bash
 flatpak override <name> --filesystem=/run/media/
 ```
 
-Substitute `<name>` with the flatpak's name, this should be apparent in the guide. For example, Snes9x's flatpak name is `com.snes9x.Snes9x`, so you'd run
+Substitute `<name>` with the Flatpak's name (specified in each guide). For example, Snes9x's Flatpak name is `com.snes9x.Snes9x`, so you'd run
 
 ```bash
 flatpak override com.snes9x.Snes9x --filesystem=/run/media/
@@ -78,6 +78,10 @@ From here, the guide branches off for each system you want to emulate:
 -   [PlayStation 2](./emulators/pcsx2.md)
 -   [Nintendo 3DS](./emulators/citra.md)
 -   [PlayStation Portable (PSP)](./emulators/ppsspp.md)
+
+## ⚠ Common Issues
+
+- If you've successfully performed the setup steps for an emulator but you get a blank screen when booting a ROM, the emulator may not have access to your ROMs directory. Open a terminal and run `flatpak override <name> --filesystem=~/roms` to allow it to find your ROMs. Replace `<name>` with the Flatpak name found in the guide for the emulator.
 
 ## ❓ Support
 
