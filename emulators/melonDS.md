@@ -34,7 +34,7 @@ Open Steam ROM Manager, press Parsers, then enter the following settings:
 -   You can add additional categories to Steam category using the format `${category name}`, this is case-sensitive.
 -   Change configuration title to `Nintendo DS - melonDS` to make it less confusing.
 -   Set executable to `/usr/bin/flatpak`.
--   Set command line arguments to `run net.kuribo64.melonDS "${filePath}"`
+-   Set command line arguments to `run net.kuribo64.melonDS "${filePath}" -f`
 -   Set ROMs directory to wherever your DS ROMs are - if you're using the recommended path, this should be `~/roms/ds`.
 -   Press save.
 
