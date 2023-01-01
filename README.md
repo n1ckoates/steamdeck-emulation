@@ -85,6 +85,6 @@ If you need any help, try asking in the `#emulation` channel over in the [Steam 
 
 ## 📜 License
 
-Copyright &copy; 2022 Nicholas Christopher
+Copyright &copy; 2022-2023 Nicholas Christopher
 
 Unless otherwise stated, this guide is licensed under [Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/).
