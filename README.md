@@ -2,7 +2,7 @@
 
 This guide covers how to install emulators on a Steam Deck, setting up controls, playing games with optimal settings, and integrating them into Steam itself. It uses [Steam ROM Manager](https://steamgriddb.github.io/steam-rom-manager/), which automatically downloads cover art for each game and adds a shortcut to Steam. The end result will look like this, with Steam collections for each system:
 
-![A screenshot of the Steam Deck interface showing a library of various emulated video games.](https://cdn.discordapp.com/attachments/809297772850839552/950265581087637554/unknown.png)
+![A screenshot of the Steam Deck interface showing a library of various emulated video games.](https://github.com/n1ckoates/steamdeck-emulation/assets/58091943/bc18a983-265b-45da-a371-2e811436123c)
 
 **This is an unofficial guide**, not affiliated with Valve or any of the emulator developers. To my knowledge, it's not possible to mess up your Deck from this guide, but I take no responsibility if you do. This guide **does not** cover getting ROMs or other copyrighted material.
 
